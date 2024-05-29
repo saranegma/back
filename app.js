@@ -15,7 +15,7 @@ app.use(cors())
 app.use(logger('dev'));
 
 //conectting to db 
-mongoose.connect('mongodb://localhost/event-api')
+mongoose.connect('mongodb+srv://soso2023:soso20252024@cluster0.lc8h0nw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
 .then(() => {
   console.log('Connected to MongoDB');
 })
